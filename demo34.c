@@ -15,7 +15,7 @@ int main(void)
         counter++;
 
         if(counter>no)
-         break;
+        break;
     }
     printf("\nEnd of Program\n");
    return 0;
