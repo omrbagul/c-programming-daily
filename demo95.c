@@ -30,7 +30,7 @@ it is not present on windows
 
 int main(void)
 {
-    int *ptr=NULL;
+    int *ptr=NULL; //0
     ptr = (int *)  malloc (1*sizeof(int));
 
     if(ptr ==NULL)

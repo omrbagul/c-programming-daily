@@ -1,0 +1,80 @@
+// Malloc Function 
+
+dynamically memory allocate 
+                                    4
+int *ptr = (int *) malloc (sizeof (int));
+
+
+os -----> Heap memory  ????
+
+OS memory request give me 4 bytes
+
+ OS check heap memory is free or not (if found free block then give)
+| |
+malloc 4 byte
+
+     // 100
+ptr = address off allocated memory 
+*ptr = 100 [10]
+
+Heap
+[free][free][free][free][free][free]
+   |
+[used][free][free][free][free][free]
+   |
+  ptr
+
+*ptr
+
+why void return type???
+
+float 
+int 
+double
+
+(int *) malloc
+
+rent a room from os
+owner give a room number (address)
+room (garbage/empty)
+
+free(ptr)
+
+
+int *ptr;
+ptr = malloc(sizeof(int)) // ptr = malloc(4)
+
+sizeof(int) = 4 bytes
+
+ptr store address
+*ptr access value (store at that address)
+
+Conclusion:
+
+malloc()
+
+allocates memory from heap 
+returns starting address
+returns NULL if fails 
+Gives garbage value
+needs free()
+
+_____________________________________________
+Heap Memory ?
+
+RAM - Random Access Memory
+|
+Heap Memory
+
+malloc(); calloc(); realloc();
+
+
+ROM - Read-only Memory
+
+
+___________________________
+Memory = Storage
+
+volatile - replaceble
+
+non-volatile - non replaceble
